@@ -1,0 +1,15 @@
+{
+  "format": "opened-date-labels",
+  "version": 1,
+  "records": [
+    {
+      "id": "example-1",
+      "photo": "",
+      "name": "Craft adhesive",
+      "location": "Desk drawer",
+      "opened": "2026-10-01",
+      "guidance": "Example only: follow the instructions on your own product.",
+      "notes": "Keep the original packaging."
+    }
+  ]
+}

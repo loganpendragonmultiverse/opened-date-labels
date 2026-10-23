@@ -1,0 +1,26 @@
+{
+  "slug": "opened-date-labels",
+  "name": "Opened-Date Labels",
+  "tag": "Write down when you opened it.",
+  "intro": "Record opening dates and print plain labels with the manufacturer guidance you supply. No guessed expiration dates.",
+  "item": "supply",
+  "fields": [
+    ["name", "Supply name", "text", true],
+    ["location", "Location", "text", false],
+    ["opened", "Opened on", "date", true],
+    [
+      "guidance",
+      "Manufacturer-provided guidance (optional, copied exactly)",
+      "textarea",
+      false
+    ],
+    ["notes", "Notes", "textarea", false]
+  ],
+  "example": {
+    "name": "Craft adhesive",
+    "location": "Desk drawer",
+    "opened": "2026-10-01",
+    "guidance": "Example only: follow the instructions on your own product.",
+    "notes": "Keep the original packaging."
+  }
+}
